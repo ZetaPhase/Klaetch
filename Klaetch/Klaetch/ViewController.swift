@@ -2,35 +2,50 @@
 //  ViewController.swift
 //  Klaetch
 //
-//  Created by Dave Ho on 12/11/17.
+//  Created by Dave Ho on 12/16/17.
 //  Copyright © 2017 ZetaPhase Tech. All rights reserved.
 //
 
 import UIKit
 import MapKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
+
+    @IBOutlet weak var map: MKMapView!
     
-    @IBOutlet weak var mapView: MKMapView!
-    let regionRadius: CLLocationDistance = 1000
+    let manager = CLLocationManager()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        //location currently set to honolulu, hawaii
-        let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
-        centerMapOnLocation(location: initialLocation)
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+    {
+        let location = locations[0]
+        
+        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
+        let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
+        let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
+        map.setRegion(region, animated: true)
+        
+        print(location.altitude)
+        print(location.speed)
+        
+        self.map.showsUserLocation = true
     }
-
+    
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyBest
+        manager.requestWhenInUseAuthorization()
+        manager.startUpdatingLocation()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
-    func centerMapOnLocation(location: CLLocation) {
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius, regionRadius)
-        mapView.setRegion(coordinateRegion, animated: true)
-    }
 
 }
 

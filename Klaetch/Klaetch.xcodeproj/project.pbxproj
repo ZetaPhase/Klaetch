@@ -7,64 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		796B07261FDFAAF5004491F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B07251FDFAAF5004491F2 /* AppDelegate.swift */; };
-		796B07281FDFAAF5004491F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B07271FDFAAF5004491F2 /* ViewController.swift */; };
-		796B072B1FDFAAF5004491F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B07291FDFAAF5004491F2 /* Main.storyboard */; };
-		796B072D1FDFAAF5004491F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B072C1FDFAAF5004491F2 /* Assets.xcassets */; };
-		796B07301FDFAAF5004491F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B072E1FDFAAF5004491F2 /* LaunchScreen.storyboard */; };
-		796B073B1FDFAAF5004491F2 /* KlaetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B073A1FDFAAF5004491F2 /* KlaetchTests.swift */; };
-		796B07461FDFAAF5004491F2 /* KlaetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B07451FDFAAF5004491F2 /* KlaetchUITests.swift */; };
+		79E59ED01FE648DE004AB8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E59ECF1FE648DE004AB8FA /* AppDelegate.swift */; };
+		79E59ED21FE648DE004AB8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E59ED11FE648DE004AB8FA /* ViewController.swift */; };
+		79E59ED51FE648DE004AB8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E59ED31FE648DE004AB8FA /* Main.storyboard */; };
+		79E59ED71FE648DE004AB8FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E59ED61FE648DE004AB8FA /* Assets.xcassets */; };
+		79E59EDA1FE648DE004AB8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E59ED81FE648DE004AB8FA /* LaunchScreen.storyboard */; };
+		79E59EE51FE648DE004AB8FA /* KlaetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E59EE41FE648DE004AB8FA /* KlaetchTests.swift */; };
+		79E59EF01FE648DE004AB8FA /* KlaetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E59EEF1FE648DE004AB8FA /* KlaetchUITests.swift */; };
+		79E59EFF1FE648F2004AB8FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E59EFE1FE648F2004AB8FA /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		796B07371FDFAAF5004491F2 /* PBXContainerItemProxy */ = {
+		79E59EE11FE648DE004AB8FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 796B071A1FDFAAF5004491F2 /* Project object */;
+			containerPortal = 79E59EC41FE648DE004AB8FA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 796B07211FDFAAF5004491F2;
+			remoteGlobalIDString = 79E59ECB1FE648DE004AB8FA;
 			remoteInfo = Klaetch;
 		};
-		796B07421FDFAAF5004491F2 /* PBXContainerItemProxy */ = {
+		79E59EEC1FE648DE004AB8FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 796B071A1FDFAAF5004491F2 /* Project object */;
+			containerPortal = 79E59EC41FE648DE004AB8FA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 796B07211FDFAAF5004491F2;
+			remoteGlobalIDString = 79E59ECB1FE648DE004AB8FA;
 			remoteInfo = Klaetch;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		796B07221FDFAAF5004491F2 /* Klaetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klaetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		796B07251FDFAAF5004491F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		796B07271FDFAAF5004491F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		796B072A1FDFAAF5004491F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		796B072C1FDFAAF5004491F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		796B072F1FDFAAF5004491F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		796B07311FDFAAF5004491F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		796B07361FDFAAF5004491F2 /* KlaetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlaetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		796B073A1FDFAAF5004491F2 /* KlaetchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlaetchTests.swift; sourceTree = "<group>"; };
-		796B073C1FDFAAF5004491F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		796B07411FDFAAF5004491F2 /* KlaetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlaetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		796B07451FDFAAF5004491F2 /* KlaetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlaetchUITests.swift; sourceTree = "<group>"; };
-		796B07471FDFAAF5004491F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E59ECC1FE648DE004AB8FA /* Klaetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klaetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E59ECF1FE648DE004AB8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79E59ED11FE648DE004AB8FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79E59ED41FE648DE004AB8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79E59ED61FE648DE004AB8FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E59ED91FE648DE004AB8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E59EDB1FE648DE004AB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E59EE01FE648DE004AB8FA /* KlaetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlaetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E59EE41FE648DE004AB8FA /* KlaetchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlaetchTests.swift; sourceTree = "<group>"; };
+		79E59EE61FE648DE004AB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E59EEB1FE648DE004AB8FA /* KlaetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlaetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E59EEF1FE648DE004AB8FA /* KlaetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlaetchUITests.swift; sourceTree = "<group>"; };
+		79E59EF11FE648DE004AB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E59EFE1FE648F2004AB8FA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		796B071F1FDFAAF5004491F2 /* Frameworks */ = {
+		79E59EC91FE648DE004AB8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E59EFF1FE648F2004AB8FA /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E59EDD1FE648DE004AB8FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		796B07331FDFAAF5004491F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		796B073E1FDFAAF5004491F2 /* Frameworks */ = {
+		79E59EE81FE648DE004AB8FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,67 +77,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		796B07191FDFAAF5004491F2 = {
+		79E59EC31FE648DE004AB8FA = {
 			isa = PBXGroup;
 			children = (
-				796B07241FDFAAF5004491F2 /* Klaetch */,
-				796B07391FDFAAF5004491F2 /* KlaetchTests */,
-				796B07441FDFAAF5004491F2 /* KlaetchUITests */,
-				796B07231FDFAAF5004491F2 /* Products */,
+				79E59ECE1FE648DE004AB8FA /* Klaetch */,
+				79E59EE31FE648DE004AB8FA /* KlaetchTests */,
+				79E59EEE1FE648DE004AB8FA /* KlaetchUITests */,
+				79E59ECD1FE648DE004AB8FA /* Products */,
+				79E59EFD1FE648F1004AB8FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		796B07231FDFAAF5004491F2 /* Products */ = {
+		79E59ECD1FE648DE004AB8FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				796B07221FDFAAF5004491F2 /* Klaetch.app */,
-				796B07361FDFAAF5004491F2 /* KlaetchTests.xctest */,
-				796B07411FDFAAF5004491F2 /* KlaetchUITests.xctest */,
+				79E59ECC1FE648DE004AB8FA /* Klaetch.app */,
+				79E59EE01FE648DE004AB8FA /* KlaetchTests.xctest */,
+				79E59EEB1FE648DE004AB8FA /* KlaetchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		796B07241FDFAAF5004491F2 /* Klaetch */ = {
+		79E59ECE1FE648DE004AB8FA /* Klaetch */ = {
 			isa = PBXGroup;
 			children = (
-				796B07251FDFAAF5004491F2 /* AppDelegate.swift */,
-				796B07271FDFAAF5004491F2 /* ViewController.swift */,
-				796B07291FDFAAF5004491F2 /* Main.storyboard */,
-				796B072C1FDFAAF5004491F2 /* Assets.xcassets */,
-				796B072E1FDFAAF5004491F2 /* LaunchScreen.storyboard */,
-				796B07311FDFAAF5004491F2 /* Info.plist */,
+				79E59ECF1FE648DE004AB8FA /* AppDelegate.swift */,
+				79E59ED11FE648DE004AB8FA /* ViewController.swift */,
+				79E59ED31FE648DE004AB8FA /* Main.storyboard */,
+				79E59ED61FE648DE004AB8FA /* Assets.xcassets */,
+				79E59ED81FE648DE004AB8FA /* LaunchScreen.storyboard */,
+				79E59EDB1FE648DE004AB8FA /* Info.plist */,
 			);
 			path = Klaetch;
 			sourceTree = "<group>";
 		};
-		796B07391FDFAAF5004491F2 /* KlaetchTests */ = {
+		79E59EE31FE648DE004AB8FA /* KlaetchTests */ = {
 			isa = PBXGroup;
 			children = (
-				796B073A1FDFAAF5004491F2 /* KlaetchTests.swift */,
-				796B073C1FDFAAF5004491F2 /* Info.plist */,
+				79E59EE41FE648DE004AB8FA /* KlaetchTests.swift */,
+				79E59EE61FE648DE004AB8FA /* Info.plist */,
 			);
 			path = KlaetchTests;
 			sourceTree = "<group>";
 		};
-		796B07441FDFAAF5004491F2 /* KlaetchUITests */ = {
+		79E59EEE1FE648DE004AB8FA /* KlaetchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				796B07451FDFAAF5004491F2 /* KlaetchUITests.swift */,
-				796B07471FDFAAF5004491F2 /* Info.plist */,
+				79E59EEF1FE648DE004AB8FA /* KlaetchUITests.swift */,
+				79E59EF11FE648DE004AB8FA /* Info.plist */,
 			);
 			path = KlaetchUITests;
+			sourceTree = "<group>";
+		};
+		79E59EFD1FE648F1004AB8FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E59EFE1FE648F2004AB8FA /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		796B07211FDFAAF5004491F2 /* Klaetch */ = {
+		79E59ECB1FE648DE004AB8FA /* Klaetch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 796B074A1FDFAAF5004491F2 /* Build configuration list for PBXNativeTarget "Klaetch" */;
+			buildConfigurationList = 79E59EF41FE648DE004AB8FA /* Build configuration list for PBXNativeTarget "Klaetch" */;
 			buildPhases = (
-				796B071E1FDFAAF5004491F2 /* Sources */,
-				796B071F1FDFAAF5004491F2 /* Frameworks */,
-				796B07201FDFAAF5004491F2 /* Resources */,
+				79E59EC81FE648DE004AB8FA /* Sources */,
+				79E59EC91FE648DE004AB8FA /* Frameworks */,
+				79E59ECA1FE648DE004AB8FA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,72 +154,72 @@
 			);
 			name = Klaetch;
 			productName = Klaetch;
-			productReference = 796B07221FDFAAF5004491F2 /* Klaetch.app */;
+			productReference = 79E59ECC1FE648DE004AB8FA /* Klaetch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		796B07351FDFAAF5004491F2 /* KlaetchTests */ = {
+		79E59EDF1FE648DE004AB8FA /* KlaetchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 796B074D1FDFAAF5004491F2 /* Build configuration list for PBXNativeTarget "KlaetchTests" */;
+			buildConfigurationList = 79E59EF71FE648DE004AB8FA /* Build configuration list for PBXNativeTarget "KlaetchTests" */;
 			buildPhases = (
-				796B07321FDFAAF5004491F2 /* Sources */,
-				796B07331FDFAAF5004491F2 /* Frameworks */,
-				796B07341FDFAAF5004491F2 /* Resources */,
+				79E59EDC1FE648DE004AB8FA /* Sources */,
+				79E59EDD1FE648DE004AB8FA /* Frameworks */,
+				79E59EDE1FE648DE004AB8FA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				796B07381FDFAAF5004491F2 /* PBXTargetDependency */,
+				79E59EE21FE648DE004AB8FA /* PBXTargetDependency */,
 			);
 			name = KlaetchTests;
 			productName = KlaetchTests;
-			productReference = 796B07361FDFAAF5004491F2 /* KlaetchTests.xctest */;
+			productReference = 79E59EE01FE648DE004AB8FA /* KlaetchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		796B07401FDFAAF5004491F2 /* KlaetchUITests */ = {
+		79E59EEA1FE648DE004AB8FA /* KlaetchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 796B07501FDFAAF5004491F2 /* Build configuration list for PBXNativeTarget "KlaetchUITests" */;
+			buildConfigurationList = 79E59EFA1FE648DE004AB8FA /* Build configuration list for PBXNativeTarget "KlaetchUITests" */;
 			buildPhases = (
-				796B073D1FDFAAF5004491F2 /* Sources */,
-				796B073E1FDFAAF5004491F2 /* Frameworks */,
-				796B073F1FDFAAF5004491F2 /* Resources */,
+				79E59EE71FE648DE004AB8FA /* Sources */,
+				79E59EE81FE648DE004AB8FA /* Frameworks */,
+				79E59EE91FE648DE004AB8FA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				796B07431FDFAAF5004491F2 /* PBXTargetDependency */,
+				79E59EED1FE648DE004AB8FA /* PBXTargetDependency */,
 			);
 			name = KlaetchUITests;
 			productName = KlaetchUITests;
-			productReference = 796B07411FDFAAF5004491F2 /* KlaetchUITests.xctest */;
+			productReference = 79E59EEB1FE648DE004AB8FA /* KlaetchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		796B071A1FDFAAF5004491F2 /* Project object */ = {
+		79E59EC41FE648DE004AB8FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "ZetaPhase Tech";
 				TargetAttributes = {
-					796B07211FDFAAF5004491F2 = {
-						CreatedOnToolsVersion = 9.1;
+					79E59ECB1FE648DE004AB8FA = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					796B07351FDFAAF5004491F2 = {
-						CreatedOnToolsVersion = 9.1;
+					79E59EDF1FE648DE004AB8FA = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 796B07211FDFAAF5004491F2;
+						TestTargetID = 79E59ECB1FE648DE004AB8FA;
 					};
-					796B07401FDFAAF5004491F2 = {
-						CreatedOnToolsVersion = 9.1;
+					79E59EEA1FE648DE004AB8FA = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 796B07211FDFAAF5004491F2;
+						TestTargetID = 79E59ECB1FE648DE004AB8FA;
 					};
 				};
 			};
-			buildConfigurationList = 796B071D1FDFAAF5004491F2 /* Build configuration list for PBXProject "Klaetch" */;
+			buildConfigurationList = 79E59EC71FE648DE004AB8FA /* Build configuration list for PBXProject "Klaetch" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +227,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 796B07191FDFAAF5004491F2;
-			productRefGroup = 796B07231FDFAAF5004491F2 /* Products */;
+			mainGroup = 79E59EC31FE648DE004AB8FA;
+			productRefGroup = 79E59ECD1FE648DE004AB8FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				796B07211FDFAAF5004491F2 /* Klaetch */,
-				796B07351FDFAAF5004491F2 /* KlaetchTests */,
-				796B07401FDFAAF5004491F2 /* KlaetchUITests */,
+				79E59ECB1FE648DE004AB8FA /* Klaetch */,
+				79E59EDF1FE648DE004AB8FA /* KlaetchTests */,
+				79E59EEA1FE648DE004AB8FA /* KlaetchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		796B07201FDFAAF5004491F2 /* Resources */ = {
+		79E59ECA1FE648DE004AB8FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796B07301FDFAAF5004491F2 /* LaunchScreen.storyboard in Resources */,
-				796B072D1FDFAAF5004491F2 /* Assets.xcassets in Resources */,
-				796B072B1FDFAAF5004491F2 /* Main.storyboard in Resources */,
+				79E59EDA1FE648DE004AB8FA /* LaunchScreen.storyboard in Resources */,
+				79E59ED71FE648DE004AB8FA /* Assets.xcassets in Resources */,
+				79E59ED51FE648DE004AB8FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		796B07341FDFAAF5004491F2 /* Resources */ = {
+		79E59EDE1FE648DE004AB8FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		796B073F1FDFAAF5004491F2 /* Resources */ = {
+		79E59EE91FE648DE004AB8FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,59 +267,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		796B071E1FDFAAF5004491F2 /* Sources */ = {
+		79E59EC81FE648DE004AB8FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796B07281FDFAAF5004491F2 /* ViewController.swift in Sources */,
-				796B07261FDFAAF5004491F2 /* AppDelegate.swift in Sources */,
+				79E59ED21FE648DE004AB8FA /* ViewController.swift in Sources */,
+				79E59ED01FE648DE004AB8FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		796B07321FDFAAF5004491F2 /* Sources */ = {
+		79E59EDC1FE648DE004AB8FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796B073B1FDFAAF5004491F2 /* KlaetchTests.swift in Sources */,
+				79E59EE51FE648DE004AB8FA /* KlaetchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		796B073D1FDFAAF5004491F2 /* Sources */ = {
+		79E59EE71FE648DE004AB8FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796B07461FDFAAF5004491F2 /* KlaetchUITests.swift in Sources */,
+				79E59EF01FE648DE004AB8FA /* KlaetchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		796B07381FDFAAF5004491F2 /* PBXTargetDependency */ = {
+		79E59EE21FE648DE004AB8FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 796B07211FDFAAF5004491F2 /* Klaetch */;
-			targetProxy = 796B07371FDFAAF5004491F2 /* PBXContainerItemProxy */;
+			target = 79E59ECB1FE648DE004AB8FA /* Klaetch */;
+			targetProxy = 79E59EE11FE648DE004AB8FA /* PBXContainerItemProxy */;
 		};
-		796B07431FDFAAF5004491F2 /* PBXTargetDependency */ = {
+		79E59EED1FE648DE004AB8FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 796B07211FDFAAF5004491F2 /* Klaetch */;
-			targetProxy = 796B07421FDFAAF5004491F2 /* PBXContainerItemProxy */;
+			target = 79E59ECB1FE648DE004AB8FA /* Klaetch */;
+			targetProxy = 79E59EEC1FE648DE004AB8FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		796B07291FDFAAF5004491F2 /* Main.storyboard */ = {
+		79E59ED31FE648DE004AB8FA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				796B072A1FDFAAF5004491F2 /* Base */,
+				79E59ED41FE648DE004AB8FA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		796B072E1FDFAAF5004491F2 /* LaunchScreen.storyboard */ = {
+		79E59ED81FE648DE004AB8FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				796B072F1FDFAAF5004491F2 /* Base */,
+				79E59ED91FE648DE004AB8FA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +327,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		796B07481FDFAAF5004491F2 /* Debug */ = {
+		79E59EF21FE648DE004AB8FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -372,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		796B07491FDFAAF5004491F2 /* Release */ = {
+		79E59EF31FE648DE004AB8FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -422,7 +434,7 @@
 			};
 			name = Release;
 		};
-		796B074B1FDFAAF5004491F2 /* Debug */ = {
+		79E59EF51FE648DE004AB8FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -437,7 +449,7 @@
 			};
 			name = Debug;
 		};
-		796B074C1FDFAAF5004491F2 /* Release */ = {
+		79E59EF61FE648DE004AB8FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -452,7 +464,7 @@
 			};
 			name = Release;
 		};
-		796B074E1FDFAAF5004491F2 /* Debug */ = {
+		79E59EF81FE648DE004AB8FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -469,7 +481,7 @@
 			};
 			name = Debug;
 		};
-		796B074F1FDFAAF5004491F2 /* Release */ = {
+		79E59EF91FE648DE004AB8FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -486,7 +498,7 @@
 			};
 			name = Release;
 		};
-		796B07511FDFAAF5004491F2 /* Debug */ = {
+		79E59EFB1FE648DE004AB8FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,7 +514,7 @@
 			};
 			name = Debug;
 		};
-		796B07521FDFAAF5004491F2 /* Release */ = {
+		79E59EFC1FE648DE004AB8FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,43 +533,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		796B071D1FDFAAF5004491F2 /* Build configuration list for PBXProject "Klaetch" */ = {
+		79E59EC71FE648DE004AB8FA /* Build configuration list for PBXProject "Klaetch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				796B07481FDFAAF5004491F2 /* Debug */,
-				796B07491FDFAAF5004491F2 /* Release */,
+				79E59EF21FE648DE004AB8FA /* Debug */,
+				79E59EF31FE648DE004AB8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		796B074A1FDFAAF5004491F2 /* Build configuration list for PBXNativeTarget "Klaetch" */ = {
+		79E59EF41FE648DE004AB8FA /* Build configuration list for PBXNativeTarget "Klaetch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				796B074B1FDFAAF5004491F2 /* Debug */,
-				796B074C1FDFAAF5004491F2 /* Release */,
+				79E59EF51FE648DE004AB8FA /* Debug */,
+				79E59EF61FE648DE004AB8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		796B074D1FDFAAF5004491F2 /* Build configuration list for PBXNativeTarget "KlaetchTests" */ = {
+		79E59EF71FE648DE004AB8FA /* Build configuration list for PBXNativeTarget "KlaetchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				796B074E1FDFAAF5004491F2 /* Debug */,
-				796B074F1FDFAAF5004491F2 /* Release */,
+				79E59EF81FE648DE004AB8FA /* Debug */,
+				79E59EF91FE648DE004AB8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		796B07501FDFAAF5004491F2 /* Build configuration list for PBXNativeTarget "KlaetchUITests" */ = {
+		79E59EFA1FE648DE004AB8FA /* Build configuration list for PBXNativeTarget "KlaetchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				796B07511FDFAAF5004491F2 /* Debug */,
-				796B07521FDFAAF5004491F2 /* Release */,
+				79E59EFB1FE648DE004AB8FA /* Debug */,
+				79E59EFC1FE648DE004AB8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 796B071A1FDFAAF5004491F2 /* Project object */;
+	rootObject = 79E59EC41FE648DE004AB8FA /* Project object */;
 }

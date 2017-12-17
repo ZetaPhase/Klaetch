@@ -18,25 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tIf-RI-aNB">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OSK-PV-jbb">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="tIf-RI-aNB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4Ch-rT-N7i"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tIf-RI-aNB" secondAttribute="bottom" id="58s-9c-cc6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tIf-RI-aNB" secondAttribute="bottom" id="Aaj-2e-xXu"/>
-                            <constraint firstItem="tIf-RI-aNB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JmA-Vp-fbb"/>
-                            <constraint firstItem="tIf-RI-aNB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hca-Nj-W1o"/>
-                            <constraint firstItem="tIf-RI-aNB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nZh-Om-5jX"/>
-                            <constraint firstItem="tIf-RI-aNB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="q1s-h8-vzt"/>
-                            <constraint firstItem="tIf-RI-aNB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uH1-Ft-11x"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="tIf-RI-aNB" id="zkO-P6-gwz"/>
+                        <outlet property="map" destination="OSK-PV-jbb" id="cZx-nI-Ymj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
