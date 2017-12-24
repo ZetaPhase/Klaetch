@@ -15,6 +15,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var map: MKMapView!
     
     let manager = CLLocationManager()
+    let annotation = MKPointAnnotation()
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
     {
@@ -29,6 +30,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         print(location.speed)
         
         self.map.showsUserLocation = true
+        
+        annotation.coordinate = CLLocationCoordinate2D(latitude: 11.12, longitude: 12.11)
+        map.addAnnotation(annotation)
     }
     
     
