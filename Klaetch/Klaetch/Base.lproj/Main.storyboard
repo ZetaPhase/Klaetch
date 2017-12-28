@@ -25,6 +25,9 @@
                                 <rect key="frame" x="313" y="617" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="showCreateParty:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jab-kg-691"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,7 +54,7 @@
         <!--Create Party View Controller-->
         <scene sceneID="JEe-F3-Ej7">
             <objects>
-                <viewController id="anG-Ui-n3B" customClass="CreatePartyViewController" customModule="Klaetch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="createPartyPopup" id="anG-Ui-n3B" customClass="CreatePartyViewController" customModule="Klaetch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7o2-ih-m0i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -68,6 +71,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pon-Aa-9GX">
                                         <rect key="frame" x="149" y="188" width="39" height="30"/>
                                         <state key="normal" title="Close"/>
+                                        <connections>
+                                            <action selector="closeCreatePartyPopup:" destination="anG-Ui-n3B" eventType="touchUpInside" id="zmR-G9-s5L"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.78268333109999999" blue="0.24437443680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
