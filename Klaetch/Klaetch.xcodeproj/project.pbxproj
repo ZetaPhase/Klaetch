@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794B66481FF5680B00F4F390 /* CreatePartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B66471FF5680B00F4F390 /* CreatePartyViewController.swift */; };
 		79E59ED01FE648DE004AB8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E59ECF1FE648DE004AB8FA /* AppDelegate.swift */; };
 		79E59ED21FE648DE004AB8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E59ED11FE648DE004AB8FA /* ViewController.swift */; };
 		79E59ED51FE648DE004AB8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E59ED31FE648DE004AB8FA /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		794B66471FF5680B00F4F390 /* CreatePartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePartyViewController.swift; sourceTree = "<group>"; };
 		79E59ECC1FE648DE004AB8FA /* Klaetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klaetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E59ECF1FE648DE004AB8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79E59ED11FE648DE004AB8FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				79E59ECF1FE648DE004AB8FA /* AppDelegate.swift */,
 				79E59ED11FE648DE004AB8FA /* ViewController.swift */,
+				794B66471FF5680B00F4F390 /* CreatePartyViewController.swift */,
 				79E59ED31FE648DE004AB8FA /* Main.storyboard */,
 				79E59ED61FE648DE004AB8FA /* Assets.xcassets */,
 				79E59ED81FE648DE004AB8FA /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 			files = (
 				79E59ED21FE648DE004AB8FA /* ViewController.swift in Sources */,
 				79E59ED01FE648DE004AB8FA /* AppDelegate.swift in Sources */,
+				794B66481FF5680B00F4F390 /* CreatePartyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

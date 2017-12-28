@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Party View Controller-->
         <scene sceneID="JEe-F3-Ej7">
             <objects>
-                <viewController id="anG-Ui-n3B" sceneMemberID="viewController">
+                <viewController id="anG-Ui-n3B" customClass="CreatePartyViewController" customModule="Klaetch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7o2-ih-m0i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
