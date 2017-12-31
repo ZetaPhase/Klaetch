@@ -14,6 +14,7 @@ class CreatePartyViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.showAnimate()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +23,27 @@ class CreatePartyViewController: UIViewController {
     }
     
     @IBAction func closeCreatePartyPopup(_ sender: Any) {
-        self.view.removeFromSuperview()
+        self.removeAnimate()
+        //self.view.removeFromSuperview()
+    }
+    
+    func showAnimate() {
+        self.view.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
+        self.view.alpha = 0.0;
+        UIView.animate(withDuration: 0.25, animations: {
+            self.view.alpha = 1.0
+            self.view.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
+        });
+    }
+    
+    func removeAnimate() {
+        UIView.animate(withDuration: 0.25, animations: {
+            self.view.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
+            self.view.alpha = 0.0;
+            }, completion:{(finished: Bool) in
+                if (finished){
+                    self.view.removeFromSuperview()
+                }
+        });
     }
 }
