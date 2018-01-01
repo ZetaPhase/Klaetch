@@ -25,6 +25,12 @@
                                 <rect key="frame" x="344" y="666" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add" image="AddParty"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBound" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="showCreateParty:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jab-kg-691"/>
                                 </connections>
@@ -59,45 +65,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q51-mT-5Il">
-                                <rect key="frame" x="38" y="229" width="338" height="278"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popup Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjJ-f7-0LV">
-                                        <rect key="frame" x="126" y="60" width="86" height="20"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pon-Aa-9GX">
-                                        <rect key="frame" x="149" y="188" width="39" height="30"/>
-                                        <state key="normal" title="Close"/>
-                                        <connections>
-                                            <action selector="closeCreatePartyPopup:" destination="anG-Ui-n3B" eventType="touchUpInside" id="zmR-G9-s5L"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.78268333109999999" blue="0.24437443680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="pon-Aa-9GX" firstAttribute="centerX" secondItem="q51-mT-5Il" secondAttribute="centerX" id="W7n-pn-kAS"/>
-                                    <constraint firstAttribute="bottom" secondItem="pon-Aa-9GX" secondAttribute="bottom" constant="60" id="aGh-Wx-rg2"/>
-                                    <constraint firstItem="wjJ-f7-0LV" firstAttribute="centerX" secondItem="q51-mT-5Il" secondAttribute="centerX" id="hO8-9p-qC1"/>
-                                    <constraint firstItem="wjJ-f7-0LV" firstAttribute="top" secondItem="q51-mT-5Il" secondAttribute="top" constant="60" id="ss4-xA-yFJ"/>
-                                </constraints>
-                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Your Party" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjJ-f7-0LV">
+                                <rect key="frame" x="77.666666666666686" y="39" width="259" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.90329501295336789" green="0.47516045393890688" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pon-Aa-9GX">
+                                <rect key="frame" x="148" y="676" width="118" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" red="0.90329501300000004" green="0.4751604539" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <color key="backgroundColor" red="1" green="0.97026961707357529" blue="0.75162550743134537" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </variation>
+                                <connections>
+                                    <action selector="closeCreatePartyPopup:" destination="anG-Ui-n3B" eventType="touchUpInside" id="zmR-G9-s5L"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="q51-mT-5Il" firstAttribute="leading" secondItem="r3i-fZ-4mF" secondAttribute="leading" constant="38" id="Avd-dg-Gbg"/>
-                            <constraint firstItem="q51-mT-5Il" firstAttribute="centerY" secondItem="7o2-ih-m0i" secondAttribute="centerY" id="M9x-2F-Ush"/>
-                            <constraint firstItem="q51-mT-5Il" firstAttribute="centerX" secondItem="7o2-ih-m0i" secondAttribute="centerX" id="rxu-uf-kbc"/>
-                            <constraint firstItem="q51-mT-5Il" firstAttribute="top" secondItem="r3i-fZ-4mF" secondAttribute="top" constant="209" id="sR3-RP-8cW"/>
+                            <constraint firstItem="wjJ-f7-0LV" firstAttribute="centerX" secondItem="7o2-ih-m0i" secondAttribute="centerX" id="FZC-dv-IBb"/>
+                            <constraint firstItem="wjJ-f7-0LV" firstAttribute="top" secondItem="7o2-ih-m0i" secondAttribute="top" constant="39" id="k7C-ij-We6"/>
+                            <constraint firstItem="pon-Aa-9GX" firstAttribute="centerX" secondItem="7o2-ih-m0i" secondAttribute="centerX" id="lM7-Cb-mfO"/>
+                            <constraint firstAttribute="bottom" secondItem="pon-Aa-9GX" secondAttribute="bottom" constant="48" id="uNW-hx-vs3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="r3i-fZ-4mF"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hxf-6J-OUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="765.60000000000002" y="132.68365817091455"/>
+            <point key="canvasLocation" x="765.21739130434787" y="132.06521739130434"/>
         </scene>
     </scenes>
     <resources>
