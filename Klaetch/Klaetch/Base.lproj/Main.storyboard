@@ -21,10 +21,10 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OSK-PV-jbb">
                                 <rect key="frame" x="0.0" y="20" width="414" height="716"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxo-Xd-c1c">
-                                <rect key="frame" x="313" y="617" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxo-Xd-c1c">
+                                <rect key="frame" x="344" y="666" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add"/>
+                                <state key="normal" title="Add" image="AddParty"/>
                                 <connections>
                                     <action selector="showCreateParty:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jab-kg-691"/>
                                 </connections>
@@ -100,4 +100,7 @@
             <point key="canvasLocation" x="765.60000000000002" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AddParty" width="512" height="512"/>
+    </resources>
 </document>
