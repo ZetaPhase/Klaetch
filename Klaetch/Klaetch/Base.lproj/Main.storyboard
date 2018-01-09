@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -137,20 +136,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="searchDisplayController" destination="6cE-L6-Ig4" id="rEL-Ic-FVf"/>
                         <outlet property="searchResultsTableView" destination="BGO-Ll-esv" id="EgO-9p-JKN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hxf-6J-OUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="6cE-L6-Ig4">
-                    <connections>
-                        <outlet property="delegate" destination="anG-Ui-n3B" id="U0C-0D-i2N"/>
-                        <outlet property="searchBar" destination="yfk-zh-lvT" id="6rN-q7-U84"/>
-                        <outlet property="searchContentsController" destination="anG-Ui-n3B" id="Eb4-Ww-7zk"/>
-                        <outlet property="searchResultsDataSource" destination="anG-Ui-n3B" id="oX6-d2-SvM"/>
-                        <outlet property="searchResultsDelegate" destination="anG-Ui-n3B" id="X3J-co-CVM"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="763.768115942029" y="131.25"/>
         </scene>
