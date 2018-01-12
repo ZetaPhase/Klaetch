@@ -104,12 +104,16 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="383" id="Kza-HP-dP5"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="anG-Ui-n3B" id="cKN-Xr-9XA"/>
+                                    <outlet property="delegate" destination="anG-Ui-n3B" id="EW3-YD-yYi"/>
+                                </connections>
                             </tableView>
                             <searchBar contentMode="redraw" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yfk-zh-lvT">
                                 <rect key="frame" x="20" y="130" width="374" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="anG-Ui-n3B" id="tby-zr-xIP"/>
+                                    <outlet property="delegate" destination="anG-Ui-n3B" id="04g-xy-drR"/>
                                 </connections>
                             </searchBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCg-Qw-8HG">
