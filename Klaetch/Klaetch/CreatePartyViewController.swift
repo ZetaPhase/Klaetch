@@ -15,6 +15,7 @@ class CreatePartyViewController: UIViewController {
     var searchResults = [MKLocalSearchCompletion]()
     
     @IBOutlet weak var searchResultsTableView: UITableView!
+    @IBOutlet weak var locationName: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -104,10 +105,7 @@ extension CreatePartyViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        print("hi")
-        print(searchResultsTableView.alpha)
-        searchResultsTableView.alpha = 0.0
-        print(searchResultsTableView.alpha)
+        locationName.text = "test"
         
         let completion = searchResults[indexPath.row]
         
