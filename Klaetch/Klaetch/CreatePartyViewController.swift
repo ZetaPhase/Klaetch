@@ -108,9 +108,13 @@ extension CreatePartyViewController: UITableViewDelegate {
         print("result clicked")
         searchResultsTableView.alpha = 0.0
         
-        locationName.text = "test"
         
         let completion = searchResults[indexPath.row]
+        
+        print(completion.title)
+        print(completion.subtitle)
+        
+        locationName.text = completion.title
         
         let searchRequest = MKLocalSearchRequest(completion: completion)
         let search = MKLocalSearch(request: searchRequest)
