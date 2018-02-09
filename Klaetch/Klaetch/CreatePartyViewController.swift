@@ -105,6 +105,8 @@ extension CreatePartyViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
+        view.endEditing(true)
+        
         print("result clicked")
         searchResultsTableView.alpha = 0.0
         
